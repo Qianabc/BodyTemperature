@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/fd_activity_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        opencv:camera_id="front"
+        opencv:show_fps="true" />
+
+    <Button
+        android:id="@+id/btnNetworkClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="设置"
+        android:textColor="#ff0000" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        opencv:srcCompat="@mipmap/background3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        opencv:srcCompat="@mipmap/outline" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNetworkClient"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNetworkClient"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNetworkClient"
+        android:layout_gravity="center"
+        android:layout_marginBottom="92dp"
+        android:background="#00521B1B"
+        android:gravity="center"
+        android:max="100"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:progress="30"
+        android:progressDrawable="@android:color/holo_orange_light"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/modestyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正常模式"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:minWidth="50dp"
+        android:minHeight="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="运动模式开关"
+        android:textColor="#ECCC7C"
+        android:textOff="关"
+        android:textOn="开"
+        android:textSize="22sp" />
+
+</RelativeLayout>
