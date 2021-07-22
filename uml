@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T02:55:09.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="cgcSEcJVuz2Abk3F1ykM" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T09:24:36.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="XCrqOObR9r2P7ijfY5uH" version="14.9.1" type="github" pages="2">
   <diagram id="yesn--tinuR5du9CmqpO" name="Page-1">
     <mxGraphModel dx="3519" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -524,6 +524,86 @@
         </mxCell>
         <mxCell id="TszLIWc9EWOYWHnbMwHx-48" value="&lt;p style=&quot;line-height: 60%&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;addUnreadChatMessage()&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="463.75" y="680" width="327.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g4HmVCFJzjm7EYbWVYzj" name="PlistExpandList">
+    <mxGraphModel dx="1173" dy="182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="eCALlld_dm0yXzTIsHre-0" />
+        <mxCell id="eCALlld_dm0yXzTIsHre-1" parent="eCALlld_dm0yXzTIsHre-0" />
+        <mxCell id="eCALlld_dm0yXzTIsHre-2" value="PListExpandList" style="swimlane;whiteSpace=wrap" vertex="1" parent="eCALlld_dm0yXzTIsHre-1">
+          <mxGeometry x="80" y="50" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-5" value="createExpandList4Chat()&#xa;创建显示列表，panalist与attendee显示列表不同" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-2">
+          <mxGeometry x="10" y="40" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-11" value="PrivilegeModelMC.java" style="swimlane;whiteSpace=wrap" vertex="1" parent="eCALlld_dm0yXzTIsHre-1">
+          <mxGeometry x="430" y="50" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-13" value="boolean canChatWith()" style="" vertex="1" parent="eCALlld_dm0yXzTIsHre-11">
+          <mxGeometry x="40" y="40" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-14" value="user action" style="" vertex="1" parent="eCALlld_dm0yXzTIsHre-11">
+          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-15" value="post command" style="" vertex="1" parent="eCALlld_dm0yXzTIsHre-11">
+          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-1" source="eCALlld_dm0yXzTIsHre-5" target="eCALlld_dm0yXzTIsHre-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-19" value="ParticipantsView.java" style="swimlane;whiteSpace=wrap" vertex="1" parent="eCALlld_dm0yXzTIsHre-1">
+          <mxGeometry x="-270" y="40" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-20" target="eCALlld_dm0yXzTIsHre-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-20" value="mPList 显示所有参会人员" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="10" y="40" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-24" target="eCALlld_dm0yXzTIsHre-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-24" value="showContextMenu()" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="145" y="280" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-25" target="eCALlld_dm0yXzTIsHre-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-25" value="processUserMenuAction()" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="10" y="280" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-26" value="processAction()&#xa;处理用户小列表事件" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="45" y="340" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-30" target="eCALlld_dm0yXzTIsHre-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-30" value="plistItemClickEvent()" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="48.75" y="170" width="182.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-42" target="eCALlld_dm0yXzTIsHre-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-42" value="plistItemCommonClickListener()" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="48.75" y="130" width="182.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-43" target="eCALlld_dm0yXzTIsHre-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-43" value="refreshPlistAdapter()" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="48.75" y="90" width="182.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="eCALlld_dm0yXzTIsHre-19" source="eCALlld_dm0yXzTIsHre-47" target="eCALlld_dm0yXzTIsHre-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-47" value="NormalUserStratey.canShowContexMenu(user)&#xa;user: 选中的item 用户" style="fontFamily=Times New Roman;fontSize=12;fontStyle=0" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="15" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eCALlld_dm0yXzTIsHre-51" value="&lt;font color=&quot;#ff6666&quot;&gt;True&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="eCALlld_dm0yXzTIsHre-19">
+          <mxGeometry x="170" y="250" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
