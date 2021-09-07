@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T02:07:46.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="uhEtufXOkdIchBU_H7Ge" version="15.0.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-09-07T05:11:40.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Zz0dxUyKW9VaVgqdfhJL" version="15.0.6" type="github" pages="10">
   <diagram id="yesn--tinuR5du9CmqpO" name="Page-1">
     <mxGraphModel dx="3519" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1269,7 +1269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uN48JSl-4xA_bHMNLr-3" name="AudienceUserManager">
-    <mxGraphModel dx="4346" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4529" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2YZ1x_EVx5utPA8u5yDo-0" />
         <mxCell id="2YZ1x_EVx5utPA8u5yDo-1" parent="2YZ1x_EVx5utPA8u5yDo-0" />
@@ -1520,7 +1520,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EeZy8_Yy2j384r8zDZ8c" name="PrivateChat">
-    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ojdbhcIouiAHzCxhRMq1-0" />
         <mxCell id="ojdbhcIouiAHzCxhRMq1-1" parent="ojdbhcIouiAHzCxhRMq1-0" />
@@ -1678,12 +1678,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VHbFFfJ1hb-MZxI0Ackj" name="Privilige">
-    <mxGraphModel dx="4791" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4907" dy="2422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-0" />
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-1" parent="ZK9xx4SP_1Gk13gKXRkC-0" />
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-2" value="MeetingManager" style="swimlane;fontFamily=Times New Roman;fontSize=15;align=center;" parent="ZK9xx4SP_1Gk13gKXRkC-1" vertex="1">
-          <mxGeometry x="-2060" y="-550" width="360" height="260" as="geometry" />
+          <mxGeometry x="-1750" y="-670" width="360" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-3" value="&lt;font color=&quot;#ff6666&quot;&gt;onPrivelegeFromServer(CByteStream is)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;fontColor=#000000;align=center;" parent="ZK9xx4SP_1Gk13gKXRkC-2" vertex="1">
           <mxGeometry x="35" y="100" width="290" height="30" as="geometry" />
@@ -1698,7 +1698,7 @@
           <mxGeometry x="35" y="190" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-6" value="ConfAgent" style="swimlane;fontFamily=Times New Roman;fontSize=15;align=center;" parent="ZK9xx4SP_1Gk13gKXRkC-1" vertex="1">
-          <mxGeometry x="-2770" y="-660" width="420" height="860" as="geometry" />
+          <mxGeometry x="-2460" y="-780" width="420" height="860" as="geometry" />
         </mxCell>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=15;fontColor=#000000;" parent="ZK9xx4SP_1Gk13gKXRkC-6" source="ZK9xx4SP_1Gk13gKXRkC-7" target="ZK9xx4SP_1Gk13gKXRkC-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1736,7 +1736,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-13" value="ServiceManager" style="swimlane;fontFamily=Times New Roman;fontSize=15;align=center;startSize=23;" parent="ZK9xx4SP_1Gk13gKXRkC-1" vertex="1">
-          <mxGeometry x="-2060" y="-240" width="360" height="440" as="geometry" />
+          <mxGeometry x="-1750" y="-360" width="360" height="440" as="geometry" />
         </mxCell>
         <mxCell id="ZK9xx4SP_1Gk13gKXRkC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;fontColor=#000000;" parent="ZK9xx4SP_1Gk13gKXRkC-13" source="ZK9xx4SP_1Gk13gKXRkC-15" target="ZK9xx4SP_1Gk13gKXRkC-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1763,7 +1763,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixhGwdaxlXaUS2tn2eHl-0" value="ChatUserMgr" style="swimlane;fontFamily=Times New Roman;fontSize=15;align=center;startSize=23;" parent="ZK9xx4SP_1Gk13gKXRkC-1" vertex="1">
-          <mxGeometry x="-1570" y="-550" width="360" height="620" as="geometry" />
+          <mxGeometry x="-1260" y="-670" width="360" height="620" as="geometry" />
         </mxCell>
         <mxCell id="ixhGwdaxlXaUS2tn2eHl-3" value="&lt;font&gt;setChatPrivilege()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#666600;" parent="ixhGwdaxlXaUS2tn2eHl-0" vertex="1">
           <mxGeometry x="50" y="140" width="290" height="30" as="geometry" />
@@ -1787,7 +1787,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixhGwdaxlXaUS2tn2eHl-18" value="PDUMgr4LargeEvent" style="swimlane;fontFamily=Times New Roman;fontSize=15;align=center;startSize=23;" parent="ZK9xx4SP_1Gk13gKXRkC-1" vertex="1">
-          <mxGeometry x="-1050" y="-550" width="360" height="620" as="geometry" />
+          <mxGeometry x="-740" y="-670" width="360" height="620" as="geometry" />
         </mxCell>
         <mxCell id="ixhGwdaxlXaUS2tn2eHl-19" value="&lt;font&gt;onPrivilegeChange(CByteSterem)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#666600;" parent="ixhGwdaxlXaUS2tn2eHl-18" vertex="1">
           <mxGeometry x="60" y="140" width="290" height="30" as="geometry" />
@@ -1807,8 +1807,8 @@
         <mxCell id="ixhGwdaxlXaUS2tn2eHl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#666600;startArrow=none;startFill=0;strokeWidth=1;" parent="ZK9xx4SP_1Gk13gKXRkC-1" source="ixhGwdaxlXaUS2tn2eHl-39" target="ixhGwdaxlXaUS2tn2eHl-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2120" y="-345" />
-              <mxPoint x="-2120" y="18" />
+              <mxPoint x="-1810" y="-465" />
+              <mxPoint x="-1810" y="-102" />
             </Array>
           </mxGeometry>
         </mxCell>
