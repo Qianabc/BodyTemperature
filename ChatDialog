@@ -1,24 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T02:14:47.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="tklBlpJATN6O_aBvDPQL" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T05:11:30.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ETRrjoLX5RGP8ZTJV2SW" version="15.0.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="415" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nUI9BUY0AQDlA2zakQZm-46" value="on_conference_audience_query_response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="370" y="260" width="300" height="26" as="geometry">
-            <mxRectangle x="370" y="270" width="300" height="52" as="alternateBounds" />
+        <mxCell id="20z89zPOtDi2RGtsiyvo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;curved=1;dashed=1;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-1" target="20z89zPOtDi2RGtsiyvo-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="295" />
+              <mxPoint x="755" y="410" />
+              <mxPoint x="735" y="410" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nUI9BUY0AQDlA2zakQZm-47" value="恢复变为attendee的chat，删除已经离开的attendee。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;" vertex="1" parent="nUI9BUY0AQDlA2zakQZm-46">
-          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        <mxCell id="20z89zPOtDi2RGtsiyvo-1" value="queryRemoteAudienceInfo()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="435" y="280" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nUI9BUY0AQDlA2zakQZm-51" value="on_conference_private_chat_user_roster_update_indication" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="370" y="180" width="300" height="26" as="geometry">
-            <mxRectangle x="370" y="180" width="300" height="52" as="alternateBounds" />
+        <mxCell id="20z89zPOtDi2RGtsiyvo-4" value="onModifyUnreadChatMsg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="435" y="220" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-5" target="20z89zPOtDi2RGtsiyvo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-5" value="onReceiveMsg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="435" y="160" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-6" target="20z89zPOtDi2RGtsiyvo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-6" target="20z89zPOtDi2RGtsiyvo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-6" value="addPrivateChatUser()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="805" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-8" value="Map mUsersMapByNodeId" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-9" value="Map mDiscardUser" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="412.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nUI9BUY0AQDlA2zakQZm-52" value="处理转变为panelist的attendees" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;" vertex="1" parent="nUI9BUY0AQDlA2zakQZm-51">
-          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        <mxCell id="20z89zPOtDi2RGtsiyvo-14" value="UserManager.on_conference_audienc_query_response()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="5" y="400" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="352.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-15" value="UserManager.on_conference_audience_roster_update_indication" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="5" y="340" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-18" target="20z89zPOtDi2RGtsiyvo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-18" value="UserManager.updateAudienceUserStatus()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="5" y="280" width="326" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-21" target="20z89zPOtDi2RGtsiyvo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-21" value="&lt;span&gt;on_conference_private_chat_user_roster_update_indication&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="435" y="338" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-22" target="20z89zPOtDi2RGtsiyvo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="20z89zPOtDi2RGtsiyvo-22" target="20z89zPOtDi2RGtsiyvo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-22" value="&lt;span&gt;on_conference_audience_query_response&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="435" y="398" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-24" value="recoverUserByNodeId()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="805" y="426" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-25" value="removeUserByNodeId()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="805" y="378" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20z89zPOtDi2RGtsiyvo-26" value="moveAttendee2Panelist()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="805" y="320" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
